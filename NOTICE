@@ -1,0 +1,68 @@
+qsag-canonical
+Copyright (c) 2026 AIXYBER TECH LTD (trading as Neoxyber)
+
+This product includes software developed by AIXYBER TECH LTD (trading as
+Neoxyber) as part of the Q-SAG (Quantum-Secure Autonomous Gateway) open-source
+substrate programme.
+
+For details of the substrate programme, see the published Q-SAG documentation
+at https://docs.neoxyber.com (when available) and the public substrate-artefact
+repositories under https://github.com/Neoxyber.
+
+------------------------------------------------------------------------
+Third-Party Components
+------------------------------------------------------------------------
+
+This software has minimal runtime dependencies, by design. The core
+canonicalisation logic at v0.1 uses only the Python standard library.
+
+For the complete machine-readable list of dependencies, see the project's
+SBOM (Software Bill of Materials) generated for each release in CycloneDX 1.6
+format and published alongside the release artefacts on PyPI.
+
+The following third-party components are anticipated for v0.1 (non-exhaustive;
+the SBOM published with each release is the authoritative list):
+
+  Runtime:
+    (none — Python standard library only)
+
+  Development / testing:
+    - pytest (Python) — MIT
+    - hypothesis (Python) — Mozilla Public License 2.0
+    - ruff (Python) — MIT
+    - black (Python) — MIT
+    - mypy (Python) — MIT
+
+Each component's full licence text is preserved in the dependency's own
+distribution; we do not redistribute their source.
+
+The conformance test corpus imports test vectors from `json-canon` (the Go
+reference implementation of RFC 8785, https://github.com/cyberphone/json-canonicalization),
+licensed under the Apache License 2.0. Where these vectors are reproduced in
+this repository, they remain under their original licence and are credited
+in the test-corpus index.
+
+------------------------------------------------------------------------
+Trademark Notice
+------------------------------------------------------------------------
+
+"Neoxyber", "Q-SAG", "QAID", "did:qsag", and "QSAG-OP" are trade names of
+AIXYBER TECH LTD. UK and EU trademark registration is planned but not yet
+filed at the date of this NOTICE.
+
+Use of these trade names is permitted as required for describing the origin
+of the Work and for reproducing the content of this NOTICE file. Any other
+use is subject to Section 6 of the Apache License 2.0 (which does not grant
+trademark rights) and ordinary UK passing-off law.
+
+------------------------------------------------------------------------
+Company Information
+------------------------------------------------------------------------
+
+AIXYBER TECH LTD
+Company No. 16826340
+Registered in England and Wales
+ICO Registration: ZC071900
+
+For full corporate-identity details, see COMPANY_FACTS.md in this repository.
+
