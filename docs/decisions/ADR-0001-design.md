@@ -23,7 +23,7 @@
 
 This ADR is the design decision record for `qsag-canonical`, the second artefact in the Q-SAG open-source substrate programme. It commits to the v0.1 functional surface, the standards conformance posture, the threat model, the testing discipline (bidirectional clause-to-test traceability), and the integration pattern with sibling Q-SAG artefacts and downstream consumers.
 
-The master programme ADR (ADR-0031 in the private neoxyber-qsag repository) commits to the existence of this artefact and to its place in the eleven-artefact substrate programme. This ADR-0001 commits to *how* the artefact is designed.
+The master programme ADR (ADR-0031 in the private neoxyber-qsag repository) commits to the existence of this artefact and to its place in the ten-artefact substrate programme. This ADR-0001 commits to *how* the artefact is designed.
 
 Per the locked ADR discipline in ADR-0031 §4.1, this ADR-0001 must be committed before any source code lands in `src/`. This is being committed as part of the initial repository scaffolding.
 
@@ -190,7 +190,7 @@ Detailed clause-level mappings will live in [STANDARDS.md](STANDARDS.md) and the
 
 ## 5. References
 
-- ADR-0031 — Open-Source Cryptographic and Audit Substrate Programme (private neoxyber-qsag repository, commit 21490f1d4e046040330c2e360cfe16cb39e702a2).
+- ADR-0031 — Open-Source Cryptographic and Audit Substrate Programme (private neoxyber-qsag repository, amended commit 5541d7b32e16b5a1da8b25e17a1c989cff049dde (9 May 2026; original commit 21490f1d4e046040330c2e360cfe16cb39e702a2)).
 - IETF RFC 8785 — JSON Canonicalisation Scheme (JCS).
 - IETF RFC 8259 — JSON Data Interchange Format.
 - ECMA-262 — ECMAScript Language Specification.

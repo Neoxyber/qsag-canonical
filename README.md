@@ -78,19 +78,18 @@ Detailed clause-level mappings live in [STANDARDS.md](STANDARDS.md) (forthcoming
 
 ## Related artefacts
 
-`qsag-canonical` is one of eleven sibling artefacts in the Q-SAG open-source substrate programme. The full list, in shipping order:
+`qsag-canonical` is one of ten sibling artefacts in the Q-SAG open-source substrate programme. The full list, in shipping order per the amended ADR-0031 §2.2:
 
 1. [qsag-anchors](https://github.com/Neoxyber/qsag-anchors) — federated SCITT Transparency Service primitives
 2. **qsag-canonical** *(this repository)* — strict RFC 8785 JCS implementation in Python
-3. [pg-qsag-audit-tle](https://github.com/Neoxyber/pg-qsag-audit-tle) — pg_tle SQL-only Postgres extension (closes the seven-year SHA3 gap)
-4. [pg-qsag-audit](https://github.com/Neoxyber/pg-qsag-audit) — pgrx-native Postgres extension
-5. [qsag-pq-primitives](https://github.com/Neoxyber/qsag-pq-primitives) — PyO3 wrapper, profile-aware dispatch
-6. [qsag-evidence](https://github.com/Neoxyber/qsag-evidence) — regulator-facing audit-pack export (EU AI Act Annex IV, DORA, CRA SRP, C2PA 2.3)
-7. [qsag-ocsf](https://github.com/Neoxyber/qsag-ocsf) — OCSF v1.8.0 ai_operation event emitter
-8. [qsag-cascade](https://github.com/Neoxyber/qsag-cascade) — verifiable cascading-kill primitive
-9. [qsag-coalition](https://github.com/Neoxyber/qsag-coalition) — graph-based coalition / Sybil detection
-10. [qsag-aibom](https://github.com/Neoxyber/qsag-aibom) — CycloneDX 1.6 + SPDX 3.0 + EAT-AI emitter
-11. [qsag-confidential](https://github.com/Neoxyber/qsag-confidential) — TEE attestation receipt format
+3. [pg_qsag_audit](https://github.com/Neoxyber/pg_qsag_audit) — portable, KAT-verified, sandbox-safe SHA3 + audit-chain primitives for PostgreSQL (TLE flavour and pgrx-native flavour in one canonical repository)
+4. [qsag-pq-primitives](https://github.com/Neoxyber/qsag-pq-primitives) — PyO3 wrapper, profile-aware dispatch
+5. [qsag-evidence](https://github.com/Neoxyber/qsag-evidence) — regulator-facing audit-pack export (EU AI Act Annex IV, DORA, CRA SRP, C2PA 2.3)
+6. [qsag-ocsf](https://github.com/Neoxyber/qsag-ocsf) — OCSF v1.8.0 ai_operation event emitter
+7. [qsag-cascade](https://github.com/Neoxyber/qsag-cascade) — verifiable cascading-kill primitive
+8. [qsag-coalition](https://github.com/Neoxyber/qsag-coalition) — graph-based coalition / Sybil detection
+9. [qsag-aibom](https://github.com/Neoxyber/qsag-aibom) — CycloneDX 1.6 + SPDX 3.0 + EAT-AI emitter
+10. [qsag-confidential](https://github.com/Neoxyber/qsag-confidential) — TEE attestation receipt format
 
 ## Contributing
 
@@ -106,7 +105,7 @@ New test vectors (especially edge cases that demonstrate or guard against canoni
 
 ## Security
 
-Security disclosures: **security@neoxyber.com**
+Security disclosures: **[email protected]**
 
 PGP key fingerprint: `A65AF5B7F02C9EB5B98023D70DB861BBF30F0D7B`
 
@@ -120,7 +119,7 @@ For full disclosure procedure, acknowledgement window, and safe-harbour terms, s
 
 ## Maintainer
 
-Maintainer: **Muhammad Zaid Naeem (Neoxyber)** — zaidnaeem@neoxyber.com
+Maintainer: **Muhammad Zaid Naeem (Neoxyber)** — [email protected]
 
 ## Legal
 
